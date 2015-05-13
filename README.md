@@ -12,3 +12,17 @@ yii 1.x backend theme Admin LTE 2.0.4
 ### Dependencies
 * PHP 5.2 or above
 * [jQuery](https://github.com/jquery/jquery) (1.7 or above)
+
+### Usage
+edit database name and username password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
+```php
+...
+'db'=>array(
+	'connectionString' => 'mysql:host=localhost;dbname=xxxxx',
+	'emulatePrepare' => true,
+	'username' => 'root',
+	'password' => 'root',
+	'charset' => 'utf8',
+),
+...
+```
