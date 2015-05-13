@@ -1,2 +1,2 @@
 # yii-backend-start-kit
-yii backend theme Admin LTE 2.0.4
+yii 1.x backend theme Admin LTE 2.0.4
