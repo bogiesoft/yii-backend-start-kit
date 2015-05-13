@@ -9,3 +9,4 @@ yii 1.x backend theme Admin LTE 2.0.4
 
 ### Dependencies
 * PHP 5.2 or above
+* [jQuery](https://github.com/jquery/jquery) (1.7 or above)
