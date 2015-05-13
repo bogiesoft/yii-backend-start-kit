@@ -14,8 +14,9 @@ yii 1.x backend theme Admin LTE 2.0.4
 * [jQuery](https://github.com/jquery/jquery) (1.7 or above)
 
 ### Usage
-* create database and execute sql file in [sql folder](https://github.com/fogza/yii-backend-start-kit/tree/master/sql)
+* create database and execute [sql file](https://github.com/fogza/yii-backend-start-kit/tree/master/sql)
 * edit database name and username password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
+... 
 ```php
 ...
 'db'=>array(
