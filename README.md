@@ -16,7 +16,7 @@ yii 1.x backend theme Admin LTE 2.0.4
 ### Usage
 * create database and execute [sql file](https://github.com/fogza/yii-backend-start-kit/tree/master/sql)
 * edit database name and username password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
-... 
+
 ```php
 ...
 'db'=>array(
