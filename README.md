@@ -1,5 +1,5 @@
 # Yii Backend start kit
-yii 1.x backend theme Admin LTE 2.0.4
+yii 1.x backend with bootstrap 3 theme [AdminLTE](https://github.com/almasaeed2010/AdminLTE) 2.0.4
 
 ![screen shot 2558-05-13 at 14 36 25](https://cloud.githubusercontent.com/assets/1927531/7605915/816a0812-f97e-11e4-9736-4f408fc25453.png "yii backend start kit")
 
@@ -15,7 +15,7 @@ yii 1.x backend theme Admin LTE 2.0.4
 
 ### Usage
 * create database and execute [sql file](https://github.com/fogza/yii-backend-start-kit/tree/master/sql)
-* edit database name, username and password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
+* edit database name, username and password in skeleton/config/[main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
 
 ```php
 ...
