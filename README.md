@@ -6,6 +6,8 @@ yii 1.x backend theme Admin LTE 2.0.4
 ### Features
 * Authentication [defining-identity-class](http://www.yiiframework.com/doc/guide/1.1/en/topics.auth#defining-identity-class)
 * Authorization [access-control-filter](http://www.yiiframework.com/doc/guide/1.1/en/topics.auth#access-control-filter)
+* [CGridView](http://www.yiiframework.com/doc/api/1.1/CGridView) advanced customize guide
+* [CDetailView](http://www.yiiframework.com/doc/api/1.1/CDetailView) customize guide
 
 ### Dependencies
 * PHP 5.2 or above
