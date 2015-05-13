@@ -10,12 +10,12 @@ yii 1.x backend theme Admin LTE 2.0.4
 * [CDetailView](http://www.yiiframework.com/doc/api/1.1/CDetailView) Customize guide
 
 ### Dependencies
-* [PHP](http://php.net/) 5.2 or above
+* [PHP](http://php.net/) (5.2 or above)
 * [jQuery](https://github.com/jquery/jquery) (1.7 or above)
 
 ### Usage
 * create database and execute [sql file](https://github.com/fogza/yii-backend-start-kit/tree/master/sql)
-* edit database name and username password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
+* edit database name, username and password in [skeleton/config/main.php](https://github.com/fogza/yii-backend-start-kit/blob/master/protected/config/main.php)
 
 ```php
 ...
