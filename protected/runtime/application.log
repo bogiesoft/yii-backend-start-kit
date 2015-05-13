@@ -1,0 +1,237 @@
+2015/04/28 16:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:202
+Stack trace:
+#0 [internal function]: UsersController->actionPassword('1')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('password')
+#12 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/password')
+#13 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii_projects/cth_redeem/users/password/1
+---
+2015/04/28 16:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_projects/cth_redeem/admin
+---
+2015/04/28 16:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:110
+Stack trace:
+#0 [internal function]: UsersController->actionUpdate('1')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#12 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/update')
+#13 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/update/1
+HTTP_REFERER=http://localhost/yii_projects/cth_redeem/index.php/users/index
+---
+2015/04/28 16:06:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/index')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/index
+---
+2015/04/28 16:06:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/index')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/index
+---
+2015/04/28 16:06:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/create
+---
+2015/04/28 16:07:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/create
+---
+2015/04/28 16:07:27 [error] [exception.CHttpException.403] exception 'CHttpException' in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:110
+Stack trace:
+#0 [internal function]: UsersController->actionUpdate('1')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('update')
+#12 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/update')
+#13 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii_projects/cth_redeem/users/update/1
+---
+2015/04/28 16:07:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/create
+---
+2015/04/28 16:07:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#9 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_projects/cth_redeem/index.php/users/create
+---
+2015/04/28 16:08:49 [error] [php] Undefined index: UserPermission (/Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:121)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): UsersController->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii_projects/cth_redeem/users/update/17
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php (121)
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php (14)
+2015/04/28 16:10:28 [error] [php] Undefined index: UserPermission (/Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:121)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): UsersController->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii_projects/cth_redeem/users/update/17
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php (121)
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php (14)
+2015/04/28 16:11:10 [error] [php] Invalid argument supplied for foreach() (/Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:129)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): UsersController->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii_projects/cth_redeem/users/update/17
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php (129)
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php (14)
+2015/04/28 16:11:57 [error] [php] Invalid argument supplied for foreach() (/Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php:131)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii_projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#3 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii_projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii_projects/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(282): UsersController->run()
+#10 /Applications/MAMP/htdocs/yii_projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii_projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii_projects/cth_redeem/users/update/17
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/protected/controllers/UsersController.php (131)
+in /Applications/MAMP/htdocs/yii_projects/cth_redeem/index.php (14)
